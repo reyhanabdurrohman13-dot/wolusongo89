@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Katalog - 89wolusongo.barokah</title>
+    <link rel="stylesheet" href="89.css" />
+</head>
+<body>
+    <header>
+        <div class="brand">
+            <a href="89.html" class="logo">89wolusongo.barokah</a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="89.html">Beranda</a></li>
+                <li><a href="katalog.html">Katalog</a></li>
+                <li><a href="89.html#kontak">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="katalog">
+            <h2>Katalog Produk</h2>
+            <div class="products">
+                <ul class="product-list" role="list" aria-label="Daftar produk">
+                    <li class="product" id="propolis" role="listitem">
+                        <img src="images/propolis.jpg" alt="Propolis" />
+                        <h3>Propolis</h3>
+                        <p>Produk kesehatan alami — propolis murni, kualitas terjamin.</p>
+                        <a class="btn" href="https://wa.me/6282337822107" target="_blank" rel="noopener noreferrer">Beli / Kontak</a>
+                    </li>
+
+                    <li class="product" id="isi-pulsa" role="listitem">
+                        <img src="images/pulsa.jpg" alt="Isi Pulsa" />
+                        <h3>Isi Pulsa</h3>
+                        <p>Top up pulsa cepat untuk semua operator.</p>
+                        <a class="btn" href="https://wa.me/6282337822107" target="_blank" rel="noopener noreferrer">Isi Sekarang</a>
+                    </li>
+
+                    <li class="product" id="token-listrik" role="listitem">
+                        <img src="images/token.jpg" alt="Token Listrik" />
+                        <h3>Token Listrik</h3>
+                        <p>Token PLN pra-bayar — pengisian cepat dan aman.</p>
+                        <a class="btn" href="https://wa.me/6282337822107" target="_blank" rel="noopener noreferrer">Beli Token</a>
+                    </li>
+
+                    <li class="product" id="transfer" role="listitem">
+                        <img src="images/transfer.jpg" alt="Transfer" />
+                        <h3>Transfer</h3>
+                        <p>Layanan transfer / pembayaran antar rekening.</p>
+                        <a class="btn" href="https://wa.me/6282337822107" target="_blank" rel="noopener noreferrer">Layanan Transfer</a>
+                    </li>
+
+                    <li class="product" id="percetakan" role="listitem">
+                        <img src="images/percetakan.jpg" alt="Percetakan" />
+                        <h3>Percetakan</h3>
+                        <p>Jasa percetakan: kartu nama, brosur, spanduk, dan lain‑lain.</p>
+                        <a class="btn" href="https://wa.me/6282337822107" target="_blank" rel="noopener noreferrer">Pesan Percetakan</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© <span id="year"></span> 89wolusongo.barokah. All rights reserved.</p>
+    </footer>
+
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
